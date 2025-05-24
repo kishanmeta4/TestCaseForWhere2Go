@@ -1,0 +1,25 @@
+,,,,,,,
+Test scenario 1 - need to verfiy Where2Go display,,,,,,,
+,,,,,,,
+TC_No,Test Description,Pre-condition,TestData,Expected Output,Actual Output,Result,Comment
+TC01,Need to test Where2Go button display,URL Must be open,Click on makemytrip URL,Where2Go button should be display after opening URL,as Expected,PASS,
+TC02,Need to test where2Go button hower,URL Must be open,Click on makemytrip URL,after mouse put on Where2Go button it 'hand hover' should display,as Expected,PASS,
+TC03,Need to test where2Go button functionality,URL Must be open,"1 - Click on makemytrip URL
+2 - Click On where2Go ",after click on where2Go button it should clickable  ,as Expected,PASS,
+TC04,Need to test where2Go after click on button ,URL Must be open,"1 - Click on makemytrip URL
+2 - Click On where2Go ",After click on where2Go button page  it should be open in new tab   ,as Expected,PASS,
+,,,,,,,
+,,,,,,,
+Test Scenario 2 - need to test Title after click on button ,,,,,,,
+,,,,,,,
+TC01,need to test Title after click on Where2Go ,"1 - URL Must be open
+2 - Where2Go tab must be open","1- open URL
+2 - click on Where2Go",After click on Where2Go Title should be display as per Story point,as Expected,Pass,
+TC02,Need to test destinations after click on Where2Go ,"1 - URL Must be open
+2 - Where2Go tab must be open","1- open URL
+2 - click on Where2Go
+3- Click on Beach Destinations link",after click on Beach Destinations it should provide all beach location details,as Expected,Pass,
+TC03,Need to test Exploretheworld link ,"1 - URL Must be open
+2 - Where2Go tab must be open","1- open URL
+2 - click on Where2Go
+3- Click on Exploretheworld link",After Click on Exploretheworld  link should be open without any error ,when user clickon ‘Exploretheworld’ link system is throwing Unauthorized user,Fail,
